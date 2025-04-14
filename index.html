@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Koleksi Anime</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Koleksi Anime</h1>
+    <input type="text" id="search" placeholder="Cari anime..." />
+    <div class="controls">
+      <select id="genreFilter">
+        <option value="">Semua Genre</option>
+        <option value="aksi">Aksi</option>
+        <option value="petualangan">Petualangan</option>
+        <option value="fantasi">Fantasi</option>
+        <option value="romantis">Romantis</option>
+        <option value="ecchi">Ecchi</option>
+        <option value="hentai">Hentai</option>
+      </select>
+      <button id="toggleMode">Mode Gelap/Terang</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="gallery"></section>
+  </main>
+  
+  <form id="uploadForm">
+  <input type="file" id="fileInput" accept="image/*,video/mp4" required />
+  <input type="text" id="titleInput" placeholder="Judul" required />
+  <select id="genreInput" required>
+    <option value="">Pilih Genre</option>
+    <option value="aksi">Aksi</option>
+    <option value="petualangan">Petualangan</option>
+    <option value="fantasi">Fantasi</option>
+    <option value="romantis">Romantis</option>
+    <option value="ecchi">Ecchi</option>
+    <option value="hentai">Hentai</option>
+  </select>
+  <button type="submit">Tambah ke Galeri</button>
+</form>
+
+  <!-- Lightbox Gambar -->
+  <div id="lightbox" class="hidden">
+    <span id="closeLightbox">&times;</span>
+    <img id="lightboxImg" src="" alt="Preview" />
+  </div>
+
+  <!-- Lightbox Video -->
+  <div id="videoLightbox" class="hidden">
+    <span id="closeVideoLightbox">&times;</span>
+    <video id="lightboxVideo" controls></video>
+  </div>
+  
+  <!-- Kontak WhatsApp -->
+<div class="kontak-wa">
+  <a href="https://wa.me/6288973461209?text=Halo%20admin%2C%20saya%20mau%20request%20gambar%20anime" target="_blank">
+    <img src="image/whatsapp (1).png" alt="WhatsApp" />
+  </a>
+</div>
+
+  <footer>
+    <p>&copy; 2025 Koleksi Anime</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
