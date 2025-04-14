@@ -10,79 +10,79 @@ const data = [
     type: "photo",
     title: "koneko",
     genre: "ecchi",
-    src: "image/koneko.jpg"
+    src: "koneko.jpg"
   },
   {
     type: "photo",
     title: "koneko",
     genre: "ecchi",
-    src: "image/koneko(2).jpg"
+    src: "koneko(2).jpg"
   },
   {
     type: "photo",
     title: "High School DxD",
     genre: "ecchi",
-    src: "image/highschooldxd.jpg"
+    src: "highschooldxd.jpg"
   },
   {
   type: "photo",
   title: "Furina",
   genre: "ecchi",
-  src: "image/furina.jpg"
+  src: "furina.jpg"
   },
   {
     type: "photo",
     title: "Hentai",
     genre: "hentai",
-    src: "image/hentai.jpg"
+    src: "hentai.jpg"
   },
   {
     type: "photo",
     title: "higehiro",
     genre: "ecchi",
-    src: "image/higehiro.jpg"
+    src: "higehiro.jpg"
   },
   {
     type: "photo",
     title: "aqua",
     genre: "ecchi",
-    src: "image/aqua.jpg"
+    src: "aqua.jpg"
   },
   {
     type: "photo",
     title: "aqua",
     genre: "ecchi",
-    src: "image/aqua-konosuba.jpg"
+    src: "aqua-konosuba.jpg"
   },
   {
     type: "photo",
     title: "darknees",
     genre: "ecchi",
-    src: "image/darknees.jpg"
+    src: "darknees.jpg"
   },
   {
     type: "photo",
     title: "esdeath",
     genre: "ecchi",
-    src: "image/esdeath.jpg"
+    src: "esdeath.jpg"
   },
   {
     type: "photo",
     title: "Blue Archive",
     genre: "ecchi",
-    src: "image/bluearchive.jpg"
+    src: "bluearchive.jpg"
   },
   {
     type: "photo",
     title: "Alya",
     genre: "ecchi",
-    src: "image/alya.jpg"
+    src: "alya.jpg"
   },
   {
     type: "photo",
     title: "Rika",
     genre: "ecchi",
-    src: "image/rika.jpg"
+    src: "rika.jpg"
   }
 ];
 
