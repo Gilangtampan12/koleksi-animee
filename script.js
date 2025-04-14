@@ -109,7 +109,7 @@ function renderGallery() {
             <button class="like">♥</button>
             <button class="bookmark">🔖</button>
             <a href="${item.src}" download="${item.title}.jpg">
-              <button class="download"> <img src="image/download.png" style="width: 20px; height: 20px;" /> </button>
+              <button class="download"> <img src="download.png" style="width: 20px; height: 20px;" /> </button>
             </a>
           </div>
         `;
